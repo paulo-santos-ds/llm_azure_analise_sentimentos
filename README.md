@@ -15,6 +15,7 @@ Dica : Se você já clonou o repositório mslearn-ai-services , abra-o no Visual
 
 <h2>Inicie o Visual Studio Code.</h2>
 
+
 Abra a paleta (SHIFT+CTRL+P) e execute o comando Git: Clone para clonar o repositório para uma pasta local (não importa qual pasta).https://github.com/MicrosoftLearning/mslearn-ai-services
 
 Quando o repositório tiver sido clonado, abra a pasta no Visual Studio Code.
