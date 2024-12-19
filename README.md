@@ -1,4 +1,4 @@
-<h1> Use um contêiner de serviços de IA do Azure </h1>
+# Utilização de Serviços de IA do Azure 
 
 
 Usar serviços de IA do Azure hospedados no Azure permite que desenvolvedores de aplicativos se concentrem na infraestrutura para seu próprio código enquanto se beneficiam de serviços escaláveis ​​que são gerenciados pela Microsoft. No entanto, em muitos cenários, as organizações exigem mais controle sobre sua infraestrutura de serviço e os dados que são passados ​​entre os serviços.
