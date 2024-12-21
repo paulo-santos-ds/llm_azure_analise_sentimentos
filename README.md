@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# Use um contêiner de serviços de IA do Azure
-- # Detalhes de uso do Azure Service Ai  2024
-=======
-# Utilização de Serviços de IA do Azure 
 
->>>>>>> origin/main
+# Utilização de Serviços de IA do Azure 
 
 Usar serviços de IA do Azure hospedados no Azure permite que desenvolvedores de aplicativos se concentrem na infraestrutura para seu próprio código enquanto se beneficiam de serviços escaláveis ​​que são gerenciados pela Microsoft. No entanto, em muitos cenários, as organizações exigem mais controle sobre sua infraestrutura de serviço e os dados que são passados ​​entre os serviços.
 
@@ -19,11 +14,6 @@ Você desenvolverá seu código usando o Visual Studio Code. Os arquivos de cód
 Dica : Se você já clonou o repositório mslearn-ai-services , abra-o no Visual Studio code. Caso contrário, siga estas etapas para cloná-lo para seu ambiente de desenvolvimento.
 
 <h2>Inicie o Visual Studio Code.</h2>
-
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
 Abra a paleta (SHIFT+CTRL+P) e execute o comando Git: Clone para clonar o repositório para uma pasta local (não importa qual pasta).https://github.com/MicrosoftLearning/mslearn-ai-services
 
 Quando o repositório tiver sido clonado, abra a pasta no Visual Studio Code.
@@ -163,8 +153,3 @@ Na página de recursos, selecione **Delete** e siga as instruções para excluir
 
 <h2>Mais informações</h2>
 
-<<<<<<< HEAD
-Para obter mais informações sobre a conteinerização dos serviços de IA do Azure, consulte a documentação dos contêineres dos serviços de IA do Azure .
-=======
-Para obter mais informações sobre a conteinerização dos serviços de IA do Azure, consulte a documentação dos contêineres dos serviços de IA do Azure .
->>>>>>> origin/main
