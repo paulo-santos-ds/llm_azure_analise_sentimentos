@@ -111,15 +111,17 @@ Observe as seguintes propriedades do recurso de instância do contêiner na pág
 - FQDN : este é o nome de domínio totalmente qualificado do recurso de instâncias do contêiner. Você pode usá-lo para acessar as instâncias do contêiner em vez do endereço IP.
 - Observação : neste exercício, você implantou a imagem do contêiner de serviços de IA do Azure para análise de sentimentos em um recurso de Instâncias de Contêiner do Azure (ACI). Você pode usar uma abordagem semelhante para implantá-la em um host do Docker em seu próprio computador ou rede executando o comando a seguir (em uma única linha) para implantar o contêiner de análise de sentimentos em sua instância local do Docker, substituindo <yourEndpoint> e <yourKey> pelo URI do seu ponto de extremidade e qualquer uma das chaves para seu recurso de serviços de IA do Azure. O comando procurará a imagem em sua máquina local e, se não a encontrar lá, a extrairá do registro de imagem mcr.microsoft.com e a implantará em sua instância do Docker. Quando a implantação for concluída, o contêiner será iniciado e escutará as solicitações de entrada na porta 5000.
 
-``
+``` bash
 docker run --rm -it -p 5000:5000 --memory 8g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest Eula=accept Billing=<yourEndpoint> ApiKey=<yourKey>
-``
+```
 
 ## Use o recipiente
 
 No seu editor, abra rest-test.cmd e edite o comando curl que ele contém (mostrado abaixo), substituindo <seu_endereço_IP_ACI_ou_FQDN > pelo endereço IP ou FQDN do seu contêiner.
 
-`` curl -X POST "http://<your_ACI_IP_address_or_FQDN>:5000/text/analytics/v3.1/sentiment" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'The performance was amazing! The sound could have been clearer.'},{'id':2,'text':'The food and service were unacceptable. While the host was nice, the waiter was rude and food was cold.'}]}" ``
+``` bash
+curl -X POST "http://<your_ACI_IP_address_or_FQDN>:5000/text/analytics/v3.1/sentiment" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'The performance was amazing! The sound could have been clearer.'},{'id':2,'text':'The food and service were unacceptable. While the host was nice, the waiter was rude and food was cold.'}]}"
+```
 
 Salve suas alterações no script pressionando CTRL+S . Observe que você não precisa especificar o ponto de extremidade ou a chave dos serviços de IA do Azure - a solicitação é processada pelo serviço em contêiner. O contêiner, por sua vez, se comunica periodicamente com o serviço no Azure para relatar o uso para cobrança, mas não envia dados de solicitação.
 
