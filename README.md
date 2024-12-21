@@ -7,13 +7,13 @@ Muitas das APIs de serviços de IA do Azure podem ser empacotadas e implantadas 
 
 Nota : Há um problema atualmente sendo investigado que alguns usuários encontram onde os contêineres não são implantados corretamente, e as chamadas para esses contêineres falham. Atualizações para este laboratório serão feitas assim que o problema for resolvido.
 
-<h2>Clonar o repositório no Visual Studio Code</h2>
+## Clonar o repositório no Visual Studio Code
 
 Você desenvolverá seu código usando o Visual Studio Code. Os arquivos de código para seu aplicativo foram fornecidos em um repositório do GitHub.
 
 Dica : Se você já clonou o repositório mslearn-ai-services , abra-o no Visual Studio code. Caso contrário, siga estas etapas para cloná-lo para seu ambiente de desenvolvimento.
 
-<h2>Inicie o Visual Studio Code.</h2>
+## Inicie o Visual Studio Code.
 Abra a paleta (SHIFT+CTRL+P) e execute o comando Git: Clone para clonar o repositório para uma pasta local (não importa qual pasta).https://github.com/MicrosoftLearning/mslearn-ai-services
 
 Quando o repositório tiver sido clonado, abra a pasta no Visual Studio Code.
@@ -48,11 +48,11 @@ Aguarde a conclusão da implantação e, em seguida, visualize os detalhes da im
 
 Quando o recurso tiver sido implantado, vá até ele e visualize sua página Keys and Endpoint . Você precisará do endpoint e de uma das chaves desta página no próximo procedimento.
 
-<h2>Implantar e executar um contêiner de análise de sentimento</h2>
+## Implantar e executar um contêiner de análise de sentimento
 
 Muitas APIs de serviços de IA do Azure comumente usadas estão disponíveis em imagens de contêiner. Para uma lista completa, confira a documentação dos serviços de IA do Azure . Neste exercício, você usará a imagem de contêiner para a API de análise de Sentimento do Text Analytics ; mas os princípios são os mesmos para todas as imagens disponíveis.
 
-No portal do Azure, na página inicial , selecione o botão ＋Criar um recurso , pesquise por instâncias de contêiner e crie um recurso Instâncias de contêiner com as seguintes configurações:
+No portal do Azure, na página inicial , selecione o botão criar um recurso , pesquise por instâncias de contêiner e crie um recurso Instâncias de contêiner com as seguintes configurações:
 
 Noções básicas :
 
@@ -68,14 +68,14 @@ Noções básicas :
 - Tipo de SO : Linux
 - Tamanho : 1 vcpu, 8 GB de memória
 
-<h2>Rede :</h2>
+## Rede :
 
 
 - Tipo de rede : Pública
 - Rótulo do nome DNS : insira um nome exclusivo para o ponto de extremidade do contêiner
 - Portas : Altere a porta TCP de 80 para 5000
 
-<h2>Avançado :</h2>
+## Avançado :
 
 
 - Política de reinicialização : Em caso de falha
@@ -88,7 +88,7 @@ Noções básicas :
 
 - Gerenciamento de chaves : chaves gerenciadas pela Microsoft (MMK)
 
-<h2>Etiquetas :</h2>
+## Etiquetas :
 
 - Não adicione nenhuma tag
 
@@ -96,7 +96,7 @@ Selecione Revisar + criar e, em seguida, selecione Criar.
 
 Aguarde a conclusão da implantação e, em seguida, vá para o recurso implantado.
 
-<h3>Observação Observe que a implantação de um contêiner do Azure AI em Instâncias de Contêiner do Azure normalmente leva de 5 a 10 minutos (provisionamento) antes que eles estejam prontos para uso.</h3> 
+## Observação Observe que a implantação de um contêiner do Azure AI em Instâncias de Contêiner do Azure normalmente leva de 5 a 10 minutos (provisionamento) antes que eles estejam prontos para uso.
 
 Observação Observe que a implantação de um contêiner do Azure AI em Instâncias de Contêiner do Azure normalmente leva de 5 a 10 minutos (provisionamento) antes que eles estejam prontos para uso.
 
@@ -115,7 +115,7 @@ Observe as seguintes propriedades do recurso de instância do contêiner na pág
 docker run --rm -it -p 5000:5000 --memory 8g --cpus 1 mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest Eula=accept Billing=<yourEndpoint> ApiKey=<yourKey>
 ``
 
-<h2>Use o recipiente</h2>
+## Use o recipiente
 
 No seu editor, abra rest-test.cmd e edite o comando curl que ele contém (mostrado abaixo), substituindo <seu_endereço_IP_ACI_ou_FQDN > pelo endereço IP ou FQDN do seu contêiner.
 
@@ -136,14 +136,14 @@ Verifique se o comando retorna um documento JSON contendo informações sobre o 
 
 
 
-<h2>Limpar</h2>
+## Limpar
 
 Se você terminou de experimentar sua instância de contêiner, você deve excluí-la.
 
 No portal do Azure, abra o grupo de recursos onde você criou seus recursos para este exercício.
 Selecione o recurso de instância do contêiner e exclua-o.
 
-<h2>Limpar recursos</h2>
+## Limpar recursos
 
 Se você não estiver usando os recursos do Azure criados neste laboratório para outros módulos de treinamento, poderá excluí-los para evitar cobranças adicionais.
 
@@ -151,7 +151,7 @@ Abra o portal do Azure em e, na barra de pesquisa superior, procure os recursos 
 
 Na página de recursos, selecione **Delete** e siga as instruções para excluir o recurso. Como alternativa, você pode excluir todo o grupo de recursos para limpar todos os recursos ao mesmo tempo.
 
-<h2>Mais informações</h2>
+## Mais informações
 Microsoft.com.br
 
 
