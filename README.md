@@ -127,7 +127,9 @@ Salve suas alterações no script pressionando CTRL+S . Observe que você não p
 
 Digite o seguinte comando para executar o script:
 
-``./rest-test.cmd``
+``` bash
+./rest-test.cmd
+```
 
 
 Verifique se o comando retorna um documento JSON contendo informações sobre o sentimento detectado nos dois documentos de entrada (que devem ser positivos e negativos, nessa ordem).
