@@ -3,7 +3,6 @@
 
 Usar serviços de IA do Azure hospedados no Azure permite que desenvolvedores de aplicativos se concentrem na infraestrutura para seu próprio código enquanto se beneficiam de serviços escaláveis ​​que são gerenciados pela Microsoft. No entanto, em muitos cenários, as organizações exigem mais controle sobre sua infraestrutura de serviço e os dados que são passados ​​entre os serviços.
 
-
 Muitas das APIs de serviços de IA do Azure podem ser empacotadas e implantadas em um contêiner , permitindo que as organizações hospedem serviços de IA do Azure em sua própria infraestrutura; por exemplo, em servidores Docker locais, instâncias de contêiner do Azure ou clusters de serviços do Azure Kubernetes. Os serviços de IA do Azure em contêineres precisam se comunicar com uma conta de serviços de IA do Azure baseada no Azure para dar suporte ao faturamento; mas os dados do aplicativo não são passados ​​para o serviço de back-end, e as organizações têm maior controle sobre a configuração de implantação de seus contêineres, permitindo soluções personalizadas para autenticação, escalabilidade e outras considerações.
 
 Nota : Há um problema atualmente sendo investigado que alguns usuários encontram onde os contêineres não são implantados corretamente, e as chamadas para esses contêineres falham. Atualizações para este laboratório serão feitas assim que o problema for resolvido.
