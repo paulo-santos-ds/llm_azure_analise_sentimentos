@@ -13,6 +13,7 @@ Você desenvolverá seu código usando o Visual Studio Code. Os arquivos de cód
 
 Dica : Se você já clonou o repositório mslearn-ai-services , abra-o no Visual Studio code. Caso contrário, siga estas etapas para cloná-lo para seu ambiente de desenvolvimento.
 
+
 ## Inicie o Visual Studio Code.
 Abra a paleta (SHIFT+CTRL+P) e execute o comando Git: Clone para clonar o repositório para uma pasta local (não importa qual pasta).https://github.com/MicrosoftLearning/mslearn-ai-services
 
