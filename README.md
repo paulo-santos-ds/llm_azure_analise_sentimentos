@@ -26,7 +26,7 @@ Expanda a pasta.Labfiles/04-use-a-container
 
 <h2>Provisionar um recurso do Azure AI Services</h2>
 
-![image](https://github.com/user-attachments/assets/4f4998e1-0e23-41d1-ba43-955030f748b1)
+![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/servicos-azure-ai.png)
 
 
 
