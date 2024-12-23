@@ -152,7 +152,7 @@ Verifique se o comando retorna um documento JSON contendo informações sobre o 
 
 ![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/rest-test_cmd.png)
 
-![image](https://github.com/user-attachments/assets/1d05aa10-e017-4408-9179-5e73a14f77e2)
+![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_utilizacao.png)
 
 
 
