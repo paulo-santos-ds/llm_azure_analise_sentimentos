@@ -65,9 +65,12 @@ Noções básicas :
 - SKU : Padrão
 - Fonte da imagem : Outro Registro
 - Tipo de imagem : Pública
-- Imagem :mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
 - Tipo de SO : Linux
 - Tamanho : 1 vcpu, 8 GB de memória
+- Imagem :
+``` bash
+mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
+``` 
 
 ## Rede :
 
