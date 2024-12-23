@@ -173,6 +173,7 @@ Abra o portal do Azure em e, na barra de pesquisa superior, procure os recursos 
 Na página de recursos, selecione **Delete** e siga as instruções para excluir o recurso. Como alternativa, você pode excluir todo o grupo de recursos para limpar todos os recursos ao mesmo tempo.
 
 ## Mais informações
+
 ``` bash
 https://portal.azure.com
 ``` 
