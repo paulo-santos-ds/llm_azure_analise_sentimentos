@@ -27,7 +27,7 @@ Observação : se você for solicitado a adicionar os ativos necessários para c
 
 Expanda a pasta.Labfiles/04-use-a-container
 
-<h2>Provisionar um recurso do Azure AI Services</h2>
+## Provisionar um recurso do Azure AI Services
 
 ![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/servicos-azure-ai.png)
 
@@ -41,6 +41,8 @@ https://portal.azure.com
 ``` 
 
 Na barra de pesquisa superior, pesquise por Serviços de IA do Azure , selecione Serviços de IA do Azure e crie um recurso de conta multisserviço de Serviços de IA do Azure com as seguintes configurações:
+
+! [image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico.png)
 
 - Assinatura : Sua assinatura do Azure
 - Grupo de recursos : escolha ou crie um grupo de recursos (se estiver usando uma assinatura restrita, talvez você não tenha permissão para criar um novo grupo de recursos - use o fornecido)
@@ -62,6 +64,8 @@ No portal do Azure, na página inicial , selecione o botão criar um recurso , p
 
 Noções básicas :
 
+! [image] (https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_container.png)
+
 - Assinatura : Sua assinatura do Azure
 - Grupo de recursos : escolha o grupo de recursos que contém seu recurso de serviços de IA do Azure
 - Nome do contêiner : Insira um nome exclusivo
@@ -79,6 +83,8 @@ mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
 
 ## Rede :
 
+! [image] (https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_rede.png)
+
 
 - Tipo de rede : Pública
 - Rótulo do nome DNS : insira um nome exclusivo para o ponto de extremidade do contêiner
@@ -86,6 +92,7 @@ mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
 
 ## Avançado :
 
+! [image] (https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_avancado.png)
 
 - Política de reinicialização : Em caso de falha
 - Variáveis ​​de ambiente:
@@ -143,7 +150,7 @@ Digite o seguinte comando para executar o script:
 
 Verifique se o comando retorna um documento JSON contendo informações sobre o sentimento detectado nos dois documentos de entrada (que devem ser positivos e negativos, nessa ordem).
 
-![image](https://github.com/user-attachments/assets/10956435-dd42-4108-a5ee-c47f58ee43ba)
+![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/rest-test_cmd.png)
 
 ![image](https://github.com/user-attachments/assets/1d05aa10-e017-4408-9179-5e73a14f77e2)
 
