@@ -15,8 +15,10 @@ Dica : Se você já clonou o repositório mslearn-ai-services , abra-o no Visual
 
 
 ## Inicie o Visual Studio Code.
-Abra a paleta (SHIFT+CTRL+P) e execute o comando Git: Clone para clonar o repositório para uma pasta local (não importa qual pasta).https://github.com/MicrosoftLearning/mslearn-ai-services
-
+Abra a paleta (SHIFT+CTRL+P) e execute o comando Git: Clone para clonar o repositório para uma pasta local (não importa qual pasta).
+``` bash
+https://github.com/MicrosoftLearning/mslearn-ai-services
+```
 Quando o repositório tiver sido clonado, abra a pasta no Visual Studio Code.
 
 Aguarde enquanto arquivos adicionais são instalados para dar suporte aos projetos de código C# no repositório, se necessário
@@ -33,7 +35,10 @@ Expanda a pasta.Labfiles/04-use-a-container
 
 Se você ainda não tiver um em sua assinatura, precisará provisionar um recurso do Azure AI Services .
 
-Abra o portal do Azure em e entre usando a conta da Microsoft associada à sua assinatura do Azure.https://portal.azure.com
+Abra o portal do Azure em e entre usando a conta da Microsoft associada à sua assinatura do Azure.
+``` bash
+https://portal.azure.com
+``` 
 
 Na barra de pesquisa superior, pesquise por Serviços de IA do Azure , selecione Serviços de IA do Azure e crie um recurso de conta multisserviço de Serviços de IA do Azure com as seguintes configurações:
 
@@ -155,11 +160,14 @@ Selecione o recurso de instância do contêiner e exclua-o.
 
 Se você não estiver usando os recursos do Azure criados neste laboratório para outros módulos de treinamento, poderá excluí-los para evitar cobranças adicionais.
 
-Abra o portal do Azure em e, na barra de pesquisa superior, procure os recursos que você criou neste laboratório. ``https://portal.azure.com`` 
+Abra o portal do Azure em e, na barra de pesquisa superior, procure os recursos que você criou neste laboratório. 
+
 
 Na página de recursos, selecione **Delete** e siga as instruções para excluir o recurso. Como alternativa, você pode excluir todo o grupo de recursos para limpar todos os recursos ao mesmo tempo.
 
 ## Mais informações
-Microsoft.com.br
+``` bash
+https://portal.azure.com
+``` 
 
 
