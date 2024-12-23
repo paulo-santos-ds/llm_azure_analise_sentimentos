@@ -1,0 +1,3 @@
+[submodule "container_servicos"]
+	path = container_servicos
+	url = https://github.com/paulo-santos-ds/llm_azure
