@@ -157,7 +157,6 @@ Verifique se o comando retorna um documento JSON contendo informações sobre o 
 ![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_utilizacao.png)
 
 
-
 ## Limpar
 
 Se você terminou de experimentar sua instância de contêiner, você deve excluí-la.
