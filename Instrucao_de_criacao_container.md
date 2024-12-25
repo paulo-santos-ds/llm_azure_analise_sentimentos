@@ -141,6 +141,7 @@ No seu editor, abra rest-test.cmd e edite o comando curl que ele contém (mostra
 curl -X POST "http://<your_ACI_IP_address_or_FQDN>:5000/text/analytics/v3.1/sentiment" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'The performance was amazing! The sound could have been clearer.'},{'id':2,'text':'The food and service were unacceptable. While the host was nice, the waiter was rude and food was cold.'}]}"
 ```
 
+
 Salve suas alterações no script pressionando CTRL+S . Observe que você não precisa especificar o ponto de extremidade ou a chave dos serviços de IA do Azure - a solicitação é processada pelo serviço em contêiner. O contêiner, por sua vez, se comunica periodicamente com o serviço no Azure para relatar o uso para cobrança, mas não envia dados de solicitação.
 
 Digite o seguinte comando para executar o script:
