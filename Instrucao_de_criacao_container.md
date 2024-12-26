@@ -150,7 +150,6 @@ Digite o seguinte comando para executar o script:
 ./rest-test.cmd
 ```
 
-
 Verifique se o comando retorna um documento JSON contendo informações sobre o sentimento detectado nos dois documentos de entrada (que devem ser positivos e negativos, nessa ordem).
 
 ![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/rest-test_cmd.png)
