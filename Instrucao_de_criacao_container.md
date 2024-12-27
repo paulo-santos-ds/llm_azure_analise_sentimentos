@@ -174,8 +174,10 @@ Na página de recursos, selecione **Delete** e siga as instruções para excluir
 
 ## Mais informações
 
+Uma das opções para monitorar os serviços de IA do Azure é usar o log de diagnóstico. Depois de habilitado, o log de diagnóstico captura informações avançadas sobre o uso de recursos dos serviços de IA do Azure e pode ser uma ferramenta útil de monitoramento e depuração. Pode levar mais de uma hora após a configuração do log de diagnóstico para gerar qualquer informação, e é por isso que não a exploramos neste exercício; mas você pode saber mais sobre isso no link abaixo.
+
 ``` bash
-https://portal.azure.com
+https://learn.microsoft.com/pt-br/azure/ai-services/diagnostic-logging
 ``` 
 
 
