@@ -33,8 +33,6 @@ Expanda a pasta.Labfiles/04-use-a-container
 
 ![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/servicos-azure-ai.png)
 
-
-
 Se você ainda não tiver um em sua assinatura, precisará provisionar um recurso do Azure AI Services .
 
 Abra o portal do Azure em e entre usando a conta da Microsoft associada à sua assinatura do Azure.
