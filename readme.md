@@ -31,7 +31,7 @@ Expanda a pasta.Labfiles/04-use-a-container
 
 ## Provisionar um recurso do Azure AI Services
 
-![image](https://raw.githubusercontent.com/paulo-santos-ds/llm_azure/main/Imagem/servicos-azure-ai.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/servicos-azure-ai.png)
 
 
 Se você ainda não tiver um em sua assinatura, precisará provisionar um recurso do Azure AI Services .
@@ -43,7 +43,7 @@ https://portal.azure.com
 
 Na barra de pesquisa superior, pesquise por Serviços de IA do Azure , selecione Serviços de IA do Azure e crie um recurso de conta multisserviço de Serviços de IA do Azure com as seguintes configurações:
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/criando_servico.png)
 
 - Assinatura : Sua assinatura do Azure
 - Grupo de recursos : escolha ou crie um grupo de recursos (se estiver usando uma assinatura restrita, talvez você não tenha permissão para criar um novo grupo de recursos - use o fornecido)
