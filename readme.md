@@ -65,7 +65,7 @@ No portal do Azure, na página inicial , selecione o botão criar um recurso , p
 
 Noções básicas :
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_container.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/criando_servico_container.png)
 
 - Assinatura : Sua assinatura do Azure
 - Grupo de recursos : escolha o grupo de recursos que contém seu recurso de serviços de IA do Azure
@@ -84,7 +84,7 @@ mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
 
 ## Rede :
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_rede.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/criando_servico_rede.png)
 
 
 - Tipo de rede : Pública
@@ -93,7 +93,7 @@ mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment:latest
 
 ## Avançado :
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_avancado.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/criando_servico_avancado.png)
 
 - Política de reinicialização : Em caso de falha
 - Variáveis ​​de ambiente:
@@ -118,7 +118,7 @@ Aguarde a conclusão da implantação e, em seguida, vá para o recurso implanta
 Observação Observe que a implantação de um contêiner do Azure AI em Instâncias de Contêiner do Azure normalmente leva de 5 a 10 minutos (provisionamento) antes que eles estejam prontos para uso.
 
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_instancia.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/criando_servico_instancia.png)
 
 
 Observe as seguintes propriedades do recurso de instância do contêiner na página Visão geral :
@@ -151,9 +151,9 @@ Digite o seguinte comando para executar o script:
 
 Verifique se o comando retorna um documento JSON contendo informações sobre o sentimento detectado nos dois documentos de entrada (que devem ser positivos e negativos, nessa ordem).
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/rest-test_cmd.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/rest-test_cmd.png)
 
-![image](https://github.com/paulo-santos-ds/llm_azure/blob/main/Imagem/criando_servico_utilizacao.png)
+![image](https://github.com/paulo-santos-ds/llm_azure_analise_sentimentos/blob/main/Imagem/criando_servico_utilizacao.png)
 
 
 ## Limpar
