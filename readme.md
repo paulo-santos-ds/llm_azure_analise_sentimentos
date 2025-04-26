@@ -7,7 +7,6 @@ Muitas das APIs de serviços de IA do Azure podem ser empacotadas e implantadas 
 
 Nota : Há um problema atualmente sendo investigado que alguns usuários encontram onde os contêineres não são implantados corretamente, e as chamadas para esses contêineres falham. Atualizações para este laboratório serão feitas assim que o problema for resolvido.
 
-
 ## Clonar o repositório no Visual Studio Code
 
 Você desenvolverá seu código usando o Visual Studio Code. Os arquivos de código para seu aplicativo foram fornecidos em um repositório do GitHub.
